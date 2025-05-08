@@ -1,0 +1,7 @@
+# In _config.yml
+title: IFCB book
+author: Gulce Kurtay
+execute:
+  execute_notebooks: 'off'
+
+

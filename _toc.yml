@@ -1,0 +1,14 @@
+# In _toc.yml
+format: jb-book
+root: README
+chapters:
+- file: docs/upload_to_cloud
+  title: Upload to Cloud
+- file: notebooks/Single_image_process.ipynb
+  title: Process a Single File 
+- file: notebooks/Metadata_single_file.ipynb
+  title: Extract Metadata  
+- file: notebook/SAM_masking_pipeline_2.ipynb
+  title: SAM Pipeline
+- file: 'notebooks/roi files.ipynb'
+  title: Read Roi Files

@@ -1,4 +1,4 @@
-# NOAA IFCB Technical Memo Book
+# **NOAA IFCB Technical Memo Book**
 
 This book includes Jupyter notebooks that align with the NOAA IFCB Technical Memo. It documents workflows for managing, processing, and analyzing IFCB image data.
 

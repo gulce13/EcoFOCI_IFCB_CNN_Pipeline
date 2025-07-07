@@ -4,10 +4,10 @@ root: README
 chapters:
 - file: docs/upload_to_cloud
   title: Accessing and Storing the Data
-- file: notebooks/Metadata_single_file
-  title: Classifier Development
-- file: notebooks/Deploying_Classifier_Pipeline
-  title: Deploying Models
+- file: notebooks/Regional_Classifier_Development
+  title: Regional Classifier Development
+- file: notebooks/Deploying_and_Monitoring_Classifiers_inthe_Field
+  title: Deploying and Monitoring Classifier in the Field
 - file: notebooks/SAM_masking_pipeline_2
   title: Segmentation and Trait Extraction 
 

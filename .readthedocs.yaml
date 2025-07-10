@@ -15,8 +15,8 @@ build:
       - “jupyter-book config sphinx .”
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
-   #configuration: docs/conf.py
-  builder: html
+  configuration: conf.py
+  #builder: html
   fail_on_warning: false
 # Optionally, but recommended,
 # declare the Python requirements required to build your documentation

@@ -1,4 +1,4 @@
-## **Accessing and Storing the Data**
+## **Accessing and Storing the data**
 
 The IFCB runs on a Linux-based operating system and is connected to a local computer via a Local Area Network (LAN). This allows direct access to its internal storage for data retrieval (using a file manager software) as well as  instrument control with a graphical user interface (GUI) software (Fig. 1). While the IFCB itself operates on  Linux, users can access the data from any operating system, and a Linux machine is not required for data transfer or management. IFCB data can be retrieved in two main ways: remotely, via cloud-based transfer during the cruise (if an internet connection is available), or locally, by copying the data directly from the instrument to a laptop or external hard drive after the cruise. In many field situations where remote access is not possible, the local transfer method remains the only approach for data retrieval and backup storage.
 

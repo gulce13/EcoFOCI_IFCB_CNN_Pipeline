@@ -7,7 +7,7 @@ chapters:
 - file: notebooks/Regional_Classifier_Development
   title: Regional Classifier Development
 - file: notebooks/Deploying_and_Monitoring_Classifiers_in_the_Field
-  title: Deploying and Monitoring Classifier in the Field
+  title: Deploying and Monitoring Classifiers in the Field
 - file: notebooks/SAM_masking_pipeline_2
   title: Segmentation and Trait Extraction 
 

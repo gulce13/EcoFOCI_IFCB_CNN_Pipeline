@@ -18,3 +18,18 @@ This book includes Jupyter notebooks that align with the NOAA IFCB Technical Mem
 
   ```bash
   jupyter-book build .
+
+---
+
+## Setting Up Your Environments
+
+This project uses multiple conda environments to run different parts of the workflow.
+
+### PyTorch Environment
+
+To create and activate the PyTorch GPU-enabled environment, run:
+
+```bash
+conda env create -f environments/environment-pytorch.yml
+conda activate ifcb-gpu-env
+

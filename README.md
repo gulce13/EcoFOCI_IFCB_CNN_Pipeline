@@ -25,11 +25,23 @@ This book includes Jupyter notebooks that align with the NOAA IFCB Technical Mem
 
 This project uses multiple conda environments to run different parts of the workflow.
 
-### PyTorch Environment
+### PyIFCB Environment (For Deploying and Monitoring Classifiers)
+
+To create and activate the PyIFCB environment, run:
+
+```bash
+conda env create -f environments/environment-pyifcb.yml
+conda activate pyifcb-env
+
+```
+
+### PyTorch Environment (For Segmentation and Trait Extraction)
 
 To create and activate the PyTorch GPU-enabled environment, run:
 
 ```bash
 conda env create -f environments/environment-pytorch.yml
 conda activate ifcb-gpu-env
+
+```
 

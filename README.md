@@ -25,14 +25,20 @@ This book includes Jupyter notebooks that align with the NOAA IFCB Technical Mem
 
 This project uses multiple conda environments to run different parts of the workflow.
 
-### PyIFCB Environment (For Deploying and Monitoring Classifiers)
+### IFCB Predict Environment (For Deploying and Monitoring Classifiers)
 
-To create and activate the PyIFCB environment, run:
+To create and activate the ifcb_predict environment, run:
 
 ```bash
-conda env create -f environments/environment-pyifcb.yml
-conda activate pyifcb-env
+conda create -n ifcb_predict python=3.10.12
+conda activate ifcb_predict
+```
 
+Then, navigate to the folder containing the requirements file and install the dependencies:
+
+```bash
+cd "C:\Desktop\IFCB-image-data-process\environments"
+pip install -r ifcb_predict2.txt
 ```
 
 ### PyTorch Environment (For Segmentation and Trait Extraction)
